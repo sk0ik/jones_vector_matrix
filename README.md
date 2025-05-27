@@ -739,39 +739,6 @@ $$
 
 となりx,y成分を交換後y成分を反転させる働きをします.
 
-$\theta = \frac{\pi}{8}$ では
-
-$$
-J _ {1/4} \propto
-\begin{bmatrix}
-1 & 1 \newline
--1 & 1
-\end{bmatrix}
-$$
-
-となります.例えばx偏光を入射させると
-
-$$
-\begin{aligned}
-\vec{E} &=
-\begin{bmatrix}
-1 & 1 \newline
--1 & 1
-\end{bmatrix}
-\begin{bmatrix}
-1 \newline
-0
-\end{bmatrix} \newline
-\therefore \vec{E} &=
-\begin{bmatrix}
-1 \newline
--1
-\end{bmatrix}
-\end{aligned}
-$$
-
-となり $-\frac{\pi}{8}$ 傾いた直線偏光に変化します.
-
 ## SLM
 
 メーカーによって異なりますがここではx成分のみ変調(遅らせる)反射型のSLMを考えます.ジョーンズ行列は
